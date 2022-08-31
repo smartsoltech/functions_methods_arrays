@@ -1,0 +1,26 @@
+{
+    "sourceFile": "array_position_finder/Program.cs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1661980350714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661980362581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-﻿int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};\n+int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};\n int n = array.Length;\n \n int find = 4;\n int index = 0;\n"
+                },
+                {
+                    "date": 1661980381312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-﻿int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};\n+int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};\n int n = array.Length;\n \n int find = 4;\n int index = 0;\n"
+                }
+            ],
+            "date": 1661980350714,
+            "name": "Commit-0",
+            "content": "int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};\nint n = array.Length;\n\nint find = 4;\nint index = 0;\n\nwhile (index < n)\n{\n    if  (array[index] == find) \n        {\n            console.WriteLine($\"The position of number {find} is {index}\")\n        }\n    index ++;\n}"
+        }
+    ]
+}

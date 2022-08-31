@@ -1,0 +1,26 @@
+{
+    "sourceFile": "mx_of_9/Program.cs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1661979084253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661979147143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-﻿// C# functions and methods learning\n+// C# functions and methods learning\n \n   int result(int arg1, int arg2, int arg3)\n   {\n     int max = arg1;\n"
+                },
+                {
+                    "date": 1661979183469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-﻿// C# functions and methods learning\n+// C# functions and methods learning\n \n   int result(int arg1, int arg2, int arg3)\n   {\n     int max = arg1;\n"
+                }
+            ],
+            "date": 1661979084253,
+            "name": "Commit-0",
+            "content": "// C# functions and methods learning\n\n  int result(int arg1, int arg2, int arg3)\n  {\n    int max = arg1;\n    if (arg2 > max) max = arg2;\n    if (arg3 > max) max = arg3;\n  }\n\nint a1 = 45;\nint b1 = 34;\nint c1 = 77;\nint a2 = 234;\nint b2 = 34;\nint c2 = 22;\nint a3 = 235;\nint b3 = 24;\nint c3 = 533;\n\nint winner = result(result(a1,a2,a3), \n                    result(a2,b2,b3), \n                    result(a3,b3,c3));\n\nConsole.WriteLine(winner)"
+        }
+    ]
+}
